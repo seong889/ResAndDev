@@ -34,5 +34,5 @@ if __name__=="__main__":
 	if len(sys.argv)<2:
 		print "Usage: python segment.py <wavfile_path>"
 	else:
-	segment_input(sys.argv[1])
+		segment_input(sys.argv[1])
 	
