@@ -1,6 +1,7 @@
 from hmmlearn.hmm import GMMHMM
 import scipy.io.wavfile as wvf
 from features import mfcc
+import numpy as np
 import os
 import pickle
 import glob
